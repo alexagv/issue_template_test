@@ -2,8 +2,9 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
+assignees:
 body:
-  - type: textarea
+  - type: input
     id: gyroflow-version
     attributes:
       label: Gyroflow version
@@ -11,7 +12,7 @@ body:
       placeholder: Version nr or commit id
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: os
     attributes:
       label: What operating system are you using?
@@ -19,7 +20,7 @@ body:
       placeholder: OS and version nr
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: gpu
     attributes:
       label: What GPU are you using?
