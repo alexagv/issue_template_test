@@ -1,0 +1,13 @@
+name: Feature Request
+description: Propose a new feature to the Gyroflow project.
+title: "[Proposal]: "
+labels: ["feature request"]
+assignees:
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Description
+      placeholder: Tell us your idea!
+    validations:
+      required: true
